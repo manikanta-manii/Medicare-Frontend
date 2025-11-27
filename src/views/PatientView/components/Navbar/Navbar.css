@@ -1,0 +1,79 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFFFFF;
+  padding: 12px 24px;
+  z-index: 1000;
+  *{text-decoration: none !important;}
+}
+
+#medicare_logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #28328C;
+}
+
+#navbar_items_container {
+  display: flex;
+  gap: 30px;
+}
+
+.nav_item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #555555;
+  cursor: pointer;
+  padding-bottom: 5px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.nav_item:hover {
+  color: #28328C;
+  transform: scale(1.1);
+}
+
+.nav_item.active {
+  color: #28328C;
+  font-weight: bold;
+  border-bottom: 2px solid #28328C;
+}
+
+#navbar_user_profile_container {
+  display: flex;
+  align-items: center;
+}
+
+.user_profile {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #333333;
+  cursor: pointer;
+}
+
+.nav_item.cart {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.cart_icon_wrapper {
+  position: relative;
+  display: inline-flex;
+}
+
+.cart_badge {
+  position: absolute;
+  bottom: 10px;
+  left: 60px;
+  background-color: #FF3B3B;
+  color: #FFFFFF;
+  font-size: 12px;
+  padding: 4px 6px;
+  border-radius: 50%;
+  line-height: 1;
+}
