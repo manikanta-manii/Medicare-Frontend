@@ -1,0 +1,1 @@
+MediCare is a role-based healthcare web application built with React. This repository contains the frontend implementation, focusing on usability, accessibility, and seamless medical workflows.
