@@ -1,13 +1,13 @@
-import React, { useState } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import PatientRoutes from './views/PatientView/PatientRoutes';
+
 
 function App() {
   return (
-    <><h1>Hi, Welcome to Medicare</h1></>
+    <>
+      <PatientRoutes/>
+    </>
   );
 }
 
 export default App;
-
-
-

@@ -1,0 +1,16 @@
+body {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #2C2C2C;
+  background-color: #F9FAFB;
+  padding: 0;
+  overflow: auto;
+}
+
+main{
+  width: 80%;
+  margin-left: 10%;
+  padding: 20px;
+  overflow: auto;
+  border-radius: 10px;
+}
