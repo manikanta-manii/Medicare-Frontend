@@ -1,0 +1,71 @@
+#find_doctors_page_container{
+
+    .search-container {
+        display: flex;
+        margin: 1rem 0;
+
+        .search-input {
+            width: 30%;
+            padding: 10px 14px;
+            font-size: 16px;
+            border-radius: 6px;
+            border: 2px solid #CED4DA;
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+            outline: none;
+        }
+
+        .search-input:hover {
+            border-color: #28328C;
+            box-shadow: 0 0 6px rgba(40, 50, 140, 0.4);
+        }
+
+
+        .search-input:focus {
+            border-color: #28328C;
+            box-shadow: 0 0 6px rgba(40, 50, 140, 0.4);
+        }
+
+        .search-input::placeholder {
+            color: #888;
+        }
+    }
+
+    #doctors_list_container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+
+        .fa-star{
+            color: #FFA500;
+        }
+
+        .doctor_profile_card{
+            background-color: #FBFBFB;
+            height: 400px;
+            width: 320px;
+            border-radius: 15px;
+            padding: 10px;
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+
+        .doctor_profile_card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+        }
+
+        .doctor-profile-image-container{
+            height: 100px;
+            width: 100px;
+        }
+
+        .doctor-profile-image{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+    }
+
+}
+
