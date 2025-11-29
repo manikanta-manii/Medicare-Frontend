@@ -15,10 +15,10 @@ function Navbar() {
             <span>Find Doctors</span>
           </Link>
 
-          <div className="nav_item">
+          <Link to="/buy-medicines" className="nav_item">
             <i className="fa-solid fa-pills"></i>
             <span>Buy Medicines</span>
-          </div>
+          </Link>
 
           <div className="nav_item">
             <i className="fa-solid fa-calendar-check"></i>
