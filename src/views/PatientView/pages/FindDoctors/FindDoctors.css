@@ -1,5 +1,13 @@
 #find_doctors_page_container{
 
+    .fa-magnifying-glass{
+        color: #878ed4;
+        font-size: xx-large;
+        align-items: center;
+        display: flex;
+        margin-right: 9px;
+    }
+
     .search-container {
         display: flex;
         margin: 1rem 0;
@@ -38,6 +46,12 @@
 
         .fa-star{
             color: #FFA500;
+            margin-right: 5px;
+        }
+
+        .fa-suitcase-medical{
+            color: #878ed4;
+            margin-right: 5px;
         }
 
         .doctor_profile_card{
@@ -56,7 +70,7 @@
         }
 
         .doctor_profile_image_container{
-            height: 200px;
+            height: 230px;
             width: 100%;
         }
 
@@ -81,6 +95,22 @@
 
         .doctor_specializations::-webkit-scrollbar {
            display: none;
+        }
+        
+        .doc_info_container{
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        
+        .doc_info{
+            background: #dce3ea;
+            color: #334155;
+            padding: 4px 8px;
+            border-radius: 10px;
+            font-size: 0.85rem;
+            flex: 0 0 auto;
+            width: fit-content;
         }
 
         .spec_chip {
