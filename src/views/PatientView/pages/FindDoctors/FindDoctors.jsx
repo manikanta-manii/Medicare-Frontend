@@ -11,22 +11,25 @@ function FindDoctors(){
          </div>
          <div id="doctors_list_container">
             <div className="doctor_profile_card shadow">
-               <div className="d-flex align-items-center p-2 border-bottom">
-                  <div className="doctor_profile_image_container me-3">
+               <div className="d-flex align-items-center p-1 border-bottom">
+                  <div className="doctor_profile_image_container">
                      <img
-                        className="doctor-profile-image"
+                        className="doctor_profile_image"
                         src="/doctor_image.jpg"
                         alt="Doctor"
                      />
                   </div>
-                  <div>
-                  <div className="rating">⭐️ 4.5 <span className="text-muted">(1000 Reviews)</span></div>
-                  <div className="experience">♡ 12 <span className="text-muted">Years EXP</span></div>
-                  <h6 className="fee">Consultation Fee: ₹399</h6>
                </div>
+               <div><h5 className="doctor_name p-1">Dr. John Doe</h5></div>
+               <div className="doctor_specializations p-1">
+                  <span className="spec_chip">Cardiology</span>
+                  <span className="spec_chip">Internal Medicine</span>
+                  <span className="spec_chip">Preventive Care</span>
+                  <span className="spec_chip">Dermatology</span>
+                  <span className="spec_chip">Neurology</span>
+                  <span className="spec_chip">Orthopedics</span>
                </div>
-               <div><h6>Dr. John Doe</h6></div>
-               <div><p>spec1, spec2, spec3, spec4</p></div>
+               <div className="doctor_card_btn_container"><button type="button" className="doctor_card_btn">Book Appointment</button></div>
             </div>
          </div>
       </div>

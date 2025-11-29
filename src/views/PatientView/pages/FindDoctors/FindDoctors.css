@@ -47,6 +47,7 @@
             border-radius: 15px;
             padding: 10px;
             transition: transform 0.3s ease, color 0.3s ease;
+            position: relative;
         }
 
         .doctor_profile_card:hover {
@@ -54,18 +55,65 @@
             box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
         }
 
-        .doctor-profile-image-container{
-            height: 100px;
-            width: 100px;
+        .doctor_profile_image_container{
+            height: 200px;
+            width: 100%;
         }
 
-        .doctor-profile-image{
+        .doctor_profile_image{
             height: 100%;
             width: 100%;
             object-fit: cover;
             border-radius: 10px;
         }
+
+        .doctor_name{
+           font-weight: 600;
+        }
+
+        .doctor_specializations {
+            display: flex;
+            gap: 6px;
+            overflow-x: auto; 
+            white-space: nowrap;        
+            scroll-behavior: smooth;
+        }
+
+        .doctor_specializations::-webkit-scrollbar {
+           display: none;
+        }
+
+        .spec_chip {
+            background: #dce3ea;
+            color: #334155;
+            padding: 4px 8px;
+            border-radius: 10px;
+            font-size: 0.85rem;
+            flex: 0 0 auto;
+        }
+
+        .doctor_card_btn_container{
+            display: flex;
+            height: 50px;
+            width: 95%;
+            position: absolute;
+            bottom: 15px;
+            left: 10px;
+        }
+
+        .doctor_card_btn{
+            padding: 8px 12px;
+            border-radius: 8px;
+            font-size: 0.95rem;
+            cursor: pointer;
+            background: #28328C;
+            color: #FFFFFF;
+            border: none;
+            width: 100%;
+        }
+
     }
+
 
 }
 
